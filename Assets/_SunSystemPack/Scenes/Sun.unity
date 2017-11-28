@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1997330754}
-  m_IndirectSpecularColor: {r: 0.022065466, g: 0.016971376, b: 0.012090703, a: 1}
+  m_IndirectSpecularColor: {r: 0.019861227, g: 0.017586095, b: 0.014954838, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -7733,7 +7733,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -14004,7 +14004,7 @@ Prefab:
     - target: {fileID: 198692351712377482, guid: 71cfc450a0e674041ac2461ec5e372e4,
         type: 2}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 198344140715487822, guid: 71cfc450a0e674041ac2461ec5e372e4,
         type: 2}
@@ -14117,6 +14117,11 @@ Prefab:
         type: 2}
       propertyPath: ColorModule.gradient.maxGradient.key0.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198692351712377482, guid: 71cfc450a0e674041ac2461ec5e372e4,
+        type: 2}
+      propertyPath: InitialModule.maxNumParticles
+      value: 2000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 71cfc450a0e674041ac2461ec5e372e4, type: 2}
@@ -21151,7 +21156,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 167108997
+  randomSeed: 825461437
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -35444,7 +35449,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -86864,7 +86869,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1957462147
+  randomSeed: 273512503
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -93865,7 +93870,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 630358680
+  randomSeed: 1330643164
   InitialModule:
     serializedVersion: 3
     enabled: 1
