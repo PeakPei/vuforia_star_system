@@ -21070,6 +21070,11 @@ Prefab:
       propertyPath: InitialModule.startColor.minColor.a
       value: 0.37254903
       objectReference: {fileID: 0}
+    - target: {fileID: 199723958343460290, guid: 22cb6ae2f18881747a5e06ec1d702e1e,
+        type: 2}
+      propertyPath: m_MaxParticleSize
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22cb6ae2f18881747a5e06ec1d702e1e, type: 2}
   m_IsPrefabParent: 0
@@ -31568,6 +31573,10 @@ Prefab:
     - target: {fileID: 19800000, guid: 7082a33b796ed6a40b8cb91735ab0a50, type: 2}
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: 7082a33b796ed6a40b8cb91735ab0a50, type: 2}
+      propertyPath: m_MaxParticleSize
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7082a33b796ed6a40b8cb91735ab0a50, type: 2}
@@ -79945,6 +79954,10 @@ Prefab:
     - target: {fileID: 19800000, guid: 2a3d41cf15b47b24c8386d409779ee31, type: 2}
       propertyPath: InitialModule.startLifetime.scalar
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: 2a3d41cf15b47b24c8386d409779ee31, type: 2}
+      propertyPath: m_MaxParticleSize
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a3d41cf15b47b24c8386d409779ee31, type: 2}
