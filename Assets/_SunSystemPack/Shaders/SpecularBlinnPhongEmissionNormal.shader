@@ -46,12 +46,12 @@
 		void surf (Input IN, inout SurfaceOutput o) 
 		{
 			fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
-			float3 normal = UnpackNormal(tex2D(_NormalMap, IN.uv_NormalMap));
-			o.Normal = float3(normal.x * _BumpPower, normal.y * _BumpPower, normal.z);
+			//float3 normal = UnpackNormal(tex2D(_NormalMap, IN.uv_NormalMap));
+			//o.Normal = float3(normal.x * _BumpPower, normal.y * _BumpPower, normal.z);
 			o.Albedo = c.rgb;
 			o.Alpha = c.a;
-			o.Gloss = 1.0;
-			o.Specular = _SpecPower;
+			//o.Gloss = 1.0;
+			//o.Specular = _SpecPower;
 			o.Emission = _EmissionPower * _EmissionColor;
 		}
 		ENDCG
