@@ -10,7 +10,11 @@ public class RotateAroundTarget : MonoBehaviour {
     [SerializeField]
     private Transform target;
 
-    // Update is called once per frame
+	void Start()
+	{
+		transform.RotateAround(target.position, Vector3.up, Random.Range(0,1000));
+	}
+    
     void Update ()
     {
         transform.RotateAround(target.position, Vector3.up, -speed * Time.deltaTime);
